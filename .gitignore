@@ -1,0 +1,10 @@
+#User Specific
+*.userprefs
+*.usertasks
+bin/
+*.csproj
+
+#Mono Project Files
+*.pidb
+*.resources
+test-results/
