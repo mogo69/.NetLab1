@@ -25,7 +25,6 @@ namespace Lab1Mogolivskogo
 			students[2].addGrade (".NET", 88);
 			students[2].addGrade ("JavaSE", 60);
 			students[2].addGrade ("JavaEE", 90);
-			Console.WriteLine("=============STUDENTS=============");
 			showStudents(ref students);
 			Console.WriteLine("=========Ascending sorting========");
 			sort<Student>(ref students, (t1, t2) => t1.getAverageGrade().CompareTo(t2.getAverageGrade()) > 0);

@@ -43,7 +43,7 @@ namespace Lab1Mogolivskogo
 		public override string ToString ()
 		{
 			StringBuilder result = new StringBuilder();
-			result.AppendLine ("Grades of Ivanox: ");
+			result.AppendLine ("Grades of "+ _surname+ ": ");
 			foreach (string key in _grades.Keys)
 			{
 				result.AppendLine (key + " \t\t "+_grades[key]);
